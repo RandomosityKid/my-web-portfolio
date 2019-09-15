@@ -1,0 +1,24 @@
+{
+  "name": "my-web-portfolio",
+  "version": "1.0.0",
+  "description": "Web Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandomosityKid/my-web-portfolio.git"
+  },
+  "author": "Brant Dela Cruz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RandomosityKid/my-web-portfolio/issues"
+  },
+  "homepage": "https://github.com/RandomosityKid/my-web-portfolio#readme",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.4.1"
+  }
+}
