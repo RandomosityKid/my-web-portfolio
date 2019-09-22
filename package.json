@@ -1,28 +1,28 @@
 {
   "name": "my-web-portfolio",
   "version": "1.0.0",
-  "description": "Web Portfolio",
-  "main": "index.js",
+  "description": "Portfolio",
+  "main": "gulpfile.js",
+  "homepage": "https://github.io/RandomosityKid/my-web-portfolio#readme",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^2.1.1",
+    "jquery": "^3.4.1",
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RandomosityKid/my-web-portfolio.git"
   },
   "author": "Brant Dela Cruz",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/RandomosityKid/my-web-portfolio/issues"
-  },
-  "homepage": "https://github.com/RandomosityKid/my-web-portfolio",
-  "devDependencies": {
-    "bootstrap": "^4.3.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.4.1"
-  },
-  "dependencies": {
-    "gh-pages": "^2.1.1"
   }
+  
 }
