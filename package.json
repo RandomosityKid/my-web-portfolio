@@ -4,7 +4,8 @@
   "description": "Web Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d"
   },
   "repository": {
     "type": "git",
@@ -15,10 +16,13 @@
   "bugs": {
     "url": "https://github.com/RandomosityKid/my-web-portfolio/issues"
   },
-  "homepage": "https://github.com/RandomosityKid/my-web-portfolio#readme",
+  "homepage": "https://github.com/RandomosityKid/my-web-portfolio",
   "devDependencies": {
     "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.4.1"
+  },
+  "dependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
