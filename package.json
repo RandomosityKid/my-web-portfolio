@@ -5,10 +5,11 @@
   "main": "gulpfile.js",
   "homepage": "https://github.io/RandomosityKid/my-web-portfolio#readme",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "font-awesome": "^4.7.0",
     "gh-pages": "^2.1.1",
     "jquery": "^3.4.1",
-    "bootstrap": "^4.3.1"
+    "jquery-animated-headlines": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -24,5 +25,4 @@
   "bugs": {
     "url": "https://github.com/RandomosityKid/my-web-portfolio/issues"
   }
-  
 }
